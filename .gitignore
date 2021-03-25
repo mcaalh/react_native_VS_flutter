@@ -38,8 +38,29 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
+/node_modules
 jspm_packages/
+node_modules/**/*
+
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
+_cacache
+_locks
+_logs
+/.DS_Store
+/_cacache
+/_locks
+/_logs
 
 # TypeScript v1 declaration files
 typings/
@@ -49,6 +70,9 @@ typings/
 
 # Optional npm cache directory
 .npm
+
+_npx
+/_npx
 
 # Optional eslint cache
 .eslintcache
