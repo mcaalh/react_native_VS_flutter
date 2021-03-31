@@ -1,3 +1,4 @@
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 
 class MainPage extends StatefulWidget {
@@ -11,6 +12,19 @@ class _MainPageState extends State<MainPage> {
     return Scaffold(
       appBar: AppBar(
         title: Text('Main Page'),
+      ),
+      body: Center(
+        child: MaterialButton(
+          onPressed: () {
+            DatabaseReference dbref =
+                FirebaseDatabase.instance.reference().child('Test');
+            dbref.set('IsConnected');
+          },
+          height: 50,
+          minWidth: 300,
+          color: Colors.green,
+          child: Text('Test connection'),
+        ),
       ),
     );
   }

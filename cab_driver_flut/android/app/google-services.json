@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "696001866695",
+    "firebase_url": "https://v-cab-b9d8d-default-rtdb.firebaseio.com",
+    "project_id": "v-cab-b9d8d",
+    "storage_bucket": "v-cab-b9d8d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:696001866695:android:5824075e0f8a43043347e2",
+        "android_client_info": {
+          "package_name": "com.android.application"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "696001866695-ql8m68sl30inebvknnnl32noapc8tnft.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCzukp6zbme80i8SPDX1poXaRyO07vANbQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "696001866695-ql8m68sl30inebvknnnl32noapc8tnft.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

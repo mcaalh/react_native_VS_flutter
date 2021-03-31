@@ -1,10 +1,8 @@
 # cab_driver_flut
-
-A new Flutter project.
+Fly to the moon and back
+Flutter and react native Challenge. this app is to recreate Uber with Flutter and firebase. 
 
 ## Getting Started
-
-This project is a starting point for a Flutter application.
 
 A few resources to get you started if this is your first Flutter project:
 
