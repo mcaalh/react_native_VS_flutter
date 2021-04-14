@@ -1,12 +1,8 @@
 # react_native_VS_flutter
 
-This repo holds all projects and test projects in React Native and Flutter.
+Some challenges projects in React Native and Flutter. Recreate some UI in Flutter then recreate the same UI in React Native and "Vice Versa"
 
-### Prerequisites
+## Prerequisites
 
-Need to have nodeJs and expo installed on the computer and eventually flutter
-## Contributing
-
-This repository is the starter code for _all_ Udacity students. Therefore, we most likely will not accept pull requests.
-
-For details, check out [CONTRIBUTING.md](CONTRIBUTING.md).
+Need to have nodeJs installed on the computer, eventually flutter.
+Expo app to launch the app on phone.
