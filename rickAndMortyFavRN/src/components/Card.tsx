@@ -3,9 +3,9 @@ import { View, StyleSheet, Image, TouchableOpacity } from 'react-native'
 import { Ionicons } from '@expo/vector-icons';
 
 import AppText from './AppText';
-import { ChildProps, IEpisode } from '../../interfaces';
-import { Store } from '../../Store';
-import { toggleFavAction } from '../../Actions';
+import { ChildProps, IEpisode } from '../models/interfaces';
+import { Store } from './../store/Store';
+import { toggleFavAction } from '../store/Actions';
 
 const Card: React.FC<ChildProps> = ({episode}) => {
     const {state, dispatch} = React.useContext(Store)

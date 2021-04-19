@@ -12,20 +12,18 @@ Future<void> main() async {
     name: 'db2',
     options: Platform.isIOS || Platform.isMacOS
         ? const FirebaseOptions(
-            appId: '1:xxxxxxxxxxxxxxx',
-            apiKey: 'AIzaSyCi9IBqiy-xxxxxxxxxxxxxxxxxxx',
-            projectId: 'com.example.xxxxxxxxxxxxxxxxxxx',
-            messagingSenderId: 'xxxxxxxxxxxxxxxxxxx',
-            databaseURL:
-                'https://v-cab-xxxxxxxxxxxxxxxxxxx-default-rtdb.firebaseio.com',
+            appId: '***************',
+            apiKey: '*********************',
+            projectId: 'com.example.*******',
+            messagingSenderId: '*****',
+            databaseURL: 'https://***************.firebaseio.com',
           )
         : const FirebaseOptions(
-            appId: '1:xxxxxxxxxxxxxxxxxxx:android:xxxxxxxxxxxxxxxxxxx',
-            apiKey: 'xxxxxxxxxxxxxxxxxxx',
-            messagingSenderId: 'xxxxxxxxxxxxxxxxxxx',
-            projectId: 'v-cab-xxxxxxxxxxxxxxxxxxx',
-            databaseURL:
-                'https://v-cab-xxxxxxxxxxxxxxxxxxx-default-rtdb.firebaseio.com',
+            appId: '********************',
+            apiKey: '*******************',
+            messagingSenderId: '************',
+            projectId: '*************',
+            databaseURL: '************************',
           ),
   );
   runApp(MyApp());

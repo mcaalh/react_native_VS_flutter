@@ -1,6 +1,6 @@
 import React from 'react'
 import { View, Text } from 'react-native'
-import { IAction, IState } from './interfaces'
+import { IAction, IState } from './../models/interfaces'
 
 const initialState: IState = {
     episodes: [],

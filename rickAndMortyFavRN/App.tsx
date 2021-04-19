@@ -1,26 +1,24 @@
-import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Focus } from './src/features/focus/Focus';
-import { RickAndMorty } from './src/features/rickAndMorty/RickAndMorty';
-import { StoreProvider } from './Store';
+import { StoreProvider } from './src/store/Store';
+import { NavigationContainer } from '@react-navigation/native';
+import {createStackNavigator} from '@react-navigation/stack';
+
+import { MainBottomTabs } from './src/navigators/MainStack';
+
+const Stack = createStackNavigator();
 
 export default function App(): JSX.Element {
   return (
     <StoreProvider>
-      <View>
+        <NavigationContainer>
+          <Stack.Navigator initialRouteName={'MainBottomTabs'} screenOptions={{headerShown:false}}>
+            <Stack.Screen name='MainBottomTabs' component={MainBottomTabs}/>
+          </Stack.Navigator>
+        </NavigationContainer>
         {/* <Focus/> */}
-        <RickAndMorty/>
-      </View>
+        {/* <RickAndMorty/> */}
+        {/* <AnalyticsScreen/> */}
     </StoreProvider>
   );
 }
 
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

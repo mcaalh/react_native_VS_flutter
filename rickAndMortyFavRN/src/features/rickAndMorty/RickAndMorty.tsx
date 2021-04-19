@@ -1,8 +1,8 @@
 import React from 'react'
 import { View, StyleSheet, FlatList } from 'react-native'
-import { Store } from '../../../Store';
+import { Store } from './../../store/Store';
 import Card from '../../components/Card';
-import { fetchDataAction } from '../../../Actions';
+import { fetchDataAction } from './../../store/Actions';
 
 export const RickAndMorty = (): JSX.Element => {
     const {state, dispatch} = React.useContext(Store)
